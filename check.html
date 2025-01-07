@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem Statements</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <header
+      class="bg-center bg-cover text-white text-center py-24 mt-[50px]"
+      style="background-image: url('problem-statement-bg.jpg')"
+    >
+      <h1 class="text-6xl font-bold uppercase">Problem Statements</h1>
+    </header>
+    <div class="px-4 py-8">
+      <div
+        class="bg-[#002449] text-white flex flex-col md:flex-row justify-between items-center rounded-3xl px-6 py-8 w-3/4 h-1/6 mx-auto mb-8"
+      >
+        <h2 class="uppercase text-4xl text-[#f75700] font-semibold mb-4 md:mb-0 flex">
+          Total Statements
+        </h2>
+        <p>As per avilable data</p>
+        <div class="flex space-x-6">
+          <div class="text-center">
+            <h2 class="text-4xl font-bold">68</h2>
+            <p class="text-lg">Hardware</p>
+          </div>
+          <div class="text-center">
+            <h2 class="text-4xl font-bold">186</h2>
+            <p class="text-lg">Software</p>
+          </div>
+        </div>
+      </div>
+
+     <div class="flex justify-end ">
+      <a
+          href="#"
+          class="  bg-white text-gray-800 border border-orange-500 shadow-md rounded-full px-6 py-3 text-lg font-semibold hover:bg-orange-500 hover:text-white transition mb-8"
+        >
+          Download Problem Statements
+        </a>
+     </div>
+        
+
+      <div class="flex items-center justify-start space-x-4 mb-8">
+        <label for="entries" class="text-lg">Show</label>
+        <select id="entries" class="border rounded-md px-4 py-2 text-lg">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <label for="entries" class="text-lg">entries</label>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table
+          class="w-full border-collapse border border-gray-300 text-center"
+        >
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 px-4 py-2">S.No.</th>
+              <th class="border border-gray-300 px-4 py-2">Organization</th>
+              <th class="border border-gray-300 px-4 py-2">
+                Problem Statement Title
+              </th>
+              <th class="border border-gray-300 px-4 py-2">Category</th>
+              <th class="border border-gray-300 px-4 py-2">PS Number</th>
+              <th class="border border-gray-300 px-4 py-2">
+                Submitted Idea(s) Count
+              </th>
+              <th class="border border-gray-300 px-4 py-2">Theme</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">1</td>
+              <td class="border border-gray-300 px-4 py-2">Example Org</td>
+              <td class="border border-gray-300 px-4 py-2">Sample Problem</td>
+              <td class="border border-gray-300 px-4 py-2">Hardware</td>
+              <td class="border border-gray-300 px-4 py-2">001</td>
+              <td class="border border-gray-300 px-4 py-2">25</td>
+              <td class="border border-gray-300 px-4 py-2">Innovation</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
